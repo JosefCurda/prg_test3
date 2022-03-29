@@ -5,6 +5,8 @@ def is_whole_number(number):
     return False
 
 
+s=0
+
 def main():
     my_number = 5.4
     get_is_whole_number = is_whole_number(my_number)
