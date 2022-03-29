@@ -11,6 +11,7 @@ def is_even_number(number):
     else:
         return False
 
+s=2
 
 def main():
     my_number = 5.4
