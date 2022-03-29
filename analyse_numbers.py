@@ -14,11 +14,11 @@ def is_even_number(number):
 s=2
 
 def main():
-    my_number = 5.4
-    get_is_whole_number = is_whol_number(my_number)
-    print(get_is_whole_number)
-    a = is_even_number(my_number)
-    print(a)
+    my_numbers = [5.4, 5, 10]
+    for my_number in my_numbers:
+        get_is_whole_number = is_whol_number(my_number)
+        print(get_is_whole_number)
+
 
 if __name__ == '__main__':
     main()
